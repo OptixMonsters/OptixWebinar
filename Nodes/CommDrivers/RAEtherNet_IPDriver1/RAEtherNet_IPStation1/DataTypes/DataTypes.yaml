@@ -1,0 +1,253 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: AOI_SineWave
+  Id: g=0a43ca7d394612bda5968c87c46c6579
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AOI_SineWave",
+    "DataType": {
+     "IdType": 2,
+     "Id": "0a43ca7d394612bda5968c87c46c6579",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Val_YValue",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_10msTimer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "5693dffc1fba33453d19d73954aad8dd",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Wrk_1Percent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_ActualOffset",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_LastCommandedSP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_OffsetDiff",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_OffsetDiffABS",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_Pi",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_ScratchPad1",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_ScratchPad2",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_TimeWindow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_YValue",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AOI_SineWave"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Motor
+  Id: g=be1bb5c39991cf1ad750e1ed3c9ec36a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Motor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "be1bb5c39991cf1ad750e1ed3c9ec36a",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OCmd_Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OCmd_Stop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OSet_SP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Sts_Running",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Val_Speed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_SpeedSineWave",
+      "DataType": {
+       "IdType": 2,
+       "Id": "0a43ca7d394612bda5968c87c46c6579",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Wrk_SpeedSineWaveSettings",
+      "DataType": {
+       "IdType": 2,
+       "Id": "de14b8fe9d02e190bb26004e0a4a83b2",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_SineWave
+  Id: g=de14b8fe9d02e190bb26004e0a4a83b2
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_SineWave",
+    "DataType": {
+     "IdType": 2,
+     "Id": "de14b8fe9d02e190bb26004e0a4a83b2",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Amplitude",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Frequency",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Offset",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Phase",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_SineWave"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TIMER
+  Id: g=5693dffc1fba33453d19d73954aad8dd
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TIMER",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5693dffc1fba33453d19d73954aad8dd",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TT",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TIMER"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
