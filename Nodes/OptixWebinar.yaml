@@ -1,53 +1,66 @@
 Name: OptixWebinar
+Id: g=6f3206c42dcbb1ec5046cbff9988352c
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=a5f85468a36d810d5539ae5530d9900c
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=df9fef4930cbb3b8b1d7d35422a6febe
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=028d091f8d0ce3676ae1d4454a6ec842
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=84fa233b492074bdbb4a7353d1b1c2dd
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=693c8fac2f6d01382cb5af618381c121
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/OptixWebinar/Security/Users"
     Children:
     - Name: Kind
+      Id: g=693c9d1dda3690bff00f106d58e7b013
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: PasswordPolicy
+  Id: g=251267425b54694008b879bfc62cc080
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=b499c772a0f82030309aa066f5635ed0
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=4497f6463d4902337fd1b34f3984208b
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=5d157afce04bedd10155bd2257476853
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=6069d0b5ba540753fd52397656f37cc2
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=70102987a2f933790fc74720b33154b2
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml

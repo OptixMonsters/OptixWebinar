@@ -1,4 +1,5 @@
 Name: VariableTypes
+Id: g=fb2cdbccfcc745875ea9b4b320d51129
 Type: FolderType
 Children:
 - Name: AOI_SineWave
@@ -8,168 +9,205 @@ Children:
   ValueRank: Any
   Children:
   - Name: EnableIn
+    Id: g=6c2aed1af90de73ec1913886aa9e01c3
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=01bd28ef0acacc74af3dca90386157b8
       Type: BaseDataVariableType
       DataType: String
       Value: "EnableIn"
   - Name: EnableOut
+    Id: g=fbbbba5ef45b9624bab87f9940d90abf
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=46b037181bcc26aac06b29ea4537b473
       Type: BaseDataVariableType
       DataType: String
       Value: "EnableOut"
   - Name: Val_YValue
+    Id: g=04bc97c5475d9968e58450d89dfa191d
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=9984cedaf5f821f3f6c655012c2bd110
       Type: BaseDataVariableType
       DataType: String
       Value: "Val_YValue"
   - Name: Wrk_10msTimer
+    Id: g=772d448fe9c3340eee89ecf5a9d85049
     Type: TIMER
     DataType: TIMER
     Children:
     - Name: ACC
+      Id: g=06bc5b15b1e994ef8382ce91a5ceedff
       Type: RAEtherNetIPTag
       DataType: Int32
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=a7ac37cfb65d43cc5d2b06eb2ba8c446
         Type: BaseDataVariableType
         DataType: String
         Value: "ACC"
     - Name: DN
+      Id: g=bc369bef6c3f45f9d5fdefd884dc0ae2
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=4633404e74e36eb69b3f75ecb21788eb
         Type: BaseDataVariableType
         DataType: String
         Value: "DN"
     - Name: EN
+      Id: g=11d8467b46ae1f1685a90d605d149a70
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=50b0e4e1c4c272ff593b9397f23ffddf
         Type: BaseDataVariableType
         DataType: String
         Value: "EN"
     - Name: PRE
+      Id: g=76b0ab90ef73cb951a829b28a6fa5a08
       Type: RAEtherNetIPTag
       DataType: Int32
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=aac39df7791932bdaf581dad5fd969fb
         Type: BaseDataVariableType
         DataType: String
         Value: "PRE"
     - Name: TT
+      Id: g=a20ed49b5796b4a616f87f3cd829c751
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=7123e2f14ffb81e6409784d0373c64ce
         Type: BaseDataVariableType
         DataType: String
         Value: "TT"
   - Name: Wrk_1Percent
+    Id: g=c265348ff1ed6ce59f9603e347534eee
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=89050fbfce26e21dc7c6ddbd4dd0a4cf
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_1Percent"
   - Name: Wrk_ActualOffset
+    Id: g=e629e6107e2d6668f240c3e739bc8bab
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=21bba6b7089922796948dc802fb4afbb
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_ActualOffset"
   - Name: Wrk_LastCommandedSP
+    Id: g=8979bd69d15c352a23b67c5b1bf007fa
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=948f5f96eb8e022a8f9659f920ebc951
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_LastCommandedSP"
   - Name: Wrk_OffsetDiff
+    Id: g=eedff4849472f23127ca2d9d028cc615
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=962b7aa6d1ab27dee055d2b7d1aeb7a6
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_OffsetDiff"
   - Name: Wrk_OffsetDiffABS
+    Id: g=a1696eaa546ebe52742ae63dd2a68423
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=c56d68b65eee88e2579f457080b7107f
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_OffsetDiffABS"
   - Name: Wrk_Pi
+    Id: g=c27fb6c58145645c90116a9667f2f946
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=7afb167f7a85ddd8cecb4bdd5170d657
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_Pi"
   - Name: Wrk_ScratchPad1
+    Id: g=060b8f226781808fbaced887296665d2
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=1f45d7e60af524f2aa58e1d14df600da
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_ScratchPad1"
   - Name: Wrk_ScratchPad2
+    Id: g=d93d45b5c49eb2f8a8bfc37276ec16bd
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=f4ce5d06014d85bcf33523aac35a0403
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_ScratchPad2"
   - Name: Wrk_TimeWindow
+    Id: g=706a2f61ecef5b32d6fbe7c40dcdd596
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=bacf5848389935543fc80b0be98c447c
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_TimeWindow"
   - Name: Wrk_YValue
+    Id: g=0080c6be72978963516ab4af11f52450
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=9c975eb43b4fb5b63038f6f00f2c8297
       Type: BaseDataVariableType
       DataType: String
       Value: "Wrk_YValue"
@@ -180,275 +218,336 @@ Children:
   ValueRank: Any
   Children:
   - Name: EnableIn
+    Id: g=ad4b7c3f0528151aa0898ae5aa413bd2
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=d065ca6d00eba928843beab3f91c1e6e
       Type: BaseDataVariableType
       DataType: String
       Value: "EnableIn"
   - Name: EnableOut
+    Id: g=0b3b8a099ee214c2ca08f6681f60222a
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=77bbdf0e1723f355b53c9c84f5c0934b
       Type: BaseDataVariableType
       DataType: String
       Value: "EnableOut"
   - Name: OCmd_Start
+    Id: g=e597286c69f5ba948708c61a03d1e0f3
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=aabc7b9fe0d2d07856535a387903b77c
       Type: BaseDataVariableType
       DataType: String
       Value: "OCmd_Start"
   - Name: OCmd_Stop
+    Id: g=fb8e1537e4c69c22030116cd1f88e51b
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=e4303727c02f80492d94c0d09d3a21b6
       Type: BaseDataVariableType
       DataType: String
       Value: "OCmd_Stop"
   - Name: OSet_SP
+    Id: g=d12a44d298c52a13e3e561bcd2719c51
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=feb1cbddf94d94c7d189c42470153eb2
       Type: BaseDataVariableType
       DataType: String
       Value: "OSet_SP"
   - Name: Sts_Running
+    Id: g=b3fc3a57a953daf68529804ae67d3499
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=0faed6e79f872b0bfef487d50e0fec3d
       Type: BaseDataVariableType
       DataType: String
       Value: "Sts_Running"
   - Name: Val_Speed
+    Id: g=171bae544dd10c7d14139ed1602c8d6d
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=da740417fc3d59bd62babff907df7959
       Type: BaseDataVariableType
       DataType: String
       Value: "Val_Speed"
   - Name: Wrk_SpeedSineWave
+    Id: g=8ff69cbbd323b8815a62bf726a77b985
     Type: AOI_SineWave
     DataType: AOI_SineWave
     Children:
     - Name: EnableIn
+      Id: g=8db7368e4deabb085f5afdba4c7eb3df
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=1606fc177b9d9a1b5d01be8736d1ab01
         Type: BaseDataVariableType
         DataType: String
         Value: "EnableIn"
     - Name: EnableOut
+      Id: g=e5e40e33bc0180cd55c6478b0efe0ed8
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=4ccde762f013aac1de6963dbafc9be2e
         Type: BaseDataVariableType
         DataType: String
         Value: "EnableOut"
     - Name: Val_YValue
+      Id: g=ea186217526711447f804aa69157f37e
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=8f2b1bcdcac80ebe1d4fb01b3beacee7
         Type: BaseDataVariableType
         DataType: String
         Value: "Val_YValue"
     - Name: Wrk_10msTimer
+      Id: g=dfaec1c04ce70f1e6f53bde9186c2c86
       Type: TIMER
       DataType: TIMER
       Children:
       - Name: ACC
+        Id: g=d54cf1b03aba36c4912e68f97492ede6
         Type: RAEtherNetIPTag
         DataType: Int32
         Value: 0
         Children:
         - Name: SymbolName
+          Id: g=0e10d925bd7adcd64b7bf8f402e2a52b
           Type: BaseDataVariableType
           DataType: String
           Value: "ACC"
       - Name: DN
+        Id: g=837c20dafc701fbb6ebc52b09be54732
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=6f6731b3ae82ddc965bde5b56af0f732
           Type: BaseDataVariableType
           DataType: String
           Value: "DN"
       - Name: EN
+        Id: g=423f28ad0940945ac1bb01ae47d71f6a
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=c36025e54022c5e257411fa576ccabda
           Type: BaseDataVariableType
           DataType: String
           Value: "EN"
       - Name: PRE
+        Id: g=c0b15a4ca52be52c6daa61dcedcdd5dc
         Type: RAEtherNetIPTag
         DataType: Int32
         Value: 0
         Children:
         - Name: SymbolName
+          Id: g=175d825572d7d3cc357ed4843864cb64
           Type: BaseDataVariableType
           DataType: String
           Value: "PRE"
       - Name: TT
+        Id: g=e7929db163a0d6a09b044f7dad77c4a9
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=b41218ba04172da8d7eeb21a5148f427
           Type: BaseDataVariableType
           DataType: String
           Value: "TT"
     - Name: Wrk_1Percent
+      Id: g=a63ef203b9164f8b62ac91e7c48c2e6b
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=33c090ee0a0b82e880c0018b6abb083b
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_1Percent"
     - Name: Wrk_ActualOffset
+      Id: g=389ee921e95874f5b253a3d9393d3c36
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=e38008868d26a9e559e7ebd910c897fa
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_ActualOffset"
     - Name: Wrk_LastCommandedSP
+      Id: g=cb33679c777db74338cda5d090b096c9
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=5e0352e84f9cc504acf201d340743e84
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_LastCommandedSP"
     - Name: Wrk_OffsetDiff
+      Id: g=4154161fb5399dd1541fbd6f6f686ced
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=bf979b7ba4d787bb8d83611ab7096f8b
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_OffsetDiff"
     - Name: Wrk_OffsetDiffABS
+      Id: g=5f82e0873ef39cb2a9f3baa2a94afcd6
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=e461626fbd2cdba643445f780087c131
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_OffsetDiffABS"
     - Name: Wrk_Pi
+      Id: g=35be32d5537d71a9e6fdad9a019f4d80
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=a273213da2dc37b1c6e62c8fc80f902f
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_Pi"
     - Name: Wrk_ScratchPad1
+      Id: g=c29c4b9f70bd461310a470722c2f297a
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=3ae8e39d854c0129ca31bfb6052684d4
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_ScratchPad1"
     - Name: Wrk_ScratchPad2
+      Id: g=9bfee58efd34b71dfe118fbddd034b6c
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=6e6aa71cf3c991156c92797aa4f99a73
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_ScratchPad2"
     - Name: Wrk_TimeWindow
+      Id: g=928be112274b66ff541df04da23b52cc
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=8a59b3bdc11faf73b01897cca933524d
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_TimeWindow"
     - Name: Wrk_YValue
+      Id: g=a0f23606cab8b78d1c582637d31ce851
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=fde9de2f3bb2808336b5575b87d8000e
         Type: BaseDataVariableType
         DataType: String
         Value: "Wrk_YValue"
   - Name: Wrk_SpeedSineWaveSettings
+    Id: g=72f775410ac4ef6362920f1ef42bdce9
     Type: UDT_SineWave
     DataType: UDT_SineWave
     Children:
     - Name: Amplitude
+      Id: g=433a014ceb5c88c788449de2dc0d9aad
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=8b7c0e192831bf6f6952459087f120fd
         Type: BaseDataVariableType
         DataType: String
         Value: "Amplitude"
     - Name: Frequency
+      Id: g=a94fc2db9eb0447e8ae797d734cf7fcd
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=125d8b921c29dcbb4f688f2a06e8fdc0
         Type: BaseDataVariableType
         DataType: String
         Value: "Frequency"
     - Name: Offset
+      Id: g=76b7f762211c27e89526de8b117f0d17
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=8fd420e7becdd01de64335785a652907
         Type: BaseDataVariableType
         DataType: String
         Value: "Offset"
     - Name: Phase
+      Id: g=651d77a43d6eabc877813570fa8b20b8
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=8acdc2720364a15fbbd5db6ca92cfdeb
         Type: BaseDataVariableType
         DataType: String
         Value: "Phase"
@@ -459,38 +558,46 @@ Children:
   ValueRank: Any
   Children:
   - Name: Amplitude
+    Id: g=2d20ccc3ec4742b757e1a40767d57d47
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=af846e76243510efd76cd59b5de2c270
       Type: BaseDataVariableType
       DataType: String
       Value: "Amplitude"
   - Name: Frequency
+    Id: g=dfdf387c23d2da848d56df46ef3f9743
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=ba6e12ba60fd01abc2dab5f7173edc7b
       Type: BaseDataVariableType
       DataType: String
       Value: "Frequency"
   - Name: Offset
+    Id: g=de6072e00ac55ba517184d43a816d4cb
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=b8f6dcee474b61fe115036443b54192f
       Type: BaseDataVariableType
       DataType: String
       Value: "Offset"
   - Name: Phase
+    Id: g=9ea9ed2ddd25c1aa0e7f49a809f598e6
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=9fa4587cd1514484dc8d8e8d43ea39ee
       Type: BaseDataVariableType
       DataType: String
       Value: "Phase"
@@ -501,47 +608,57 @@ Children:
   ValueRank: Any
   Children:
   - Name: ACC
+    Id: g=61c375727878ec12f5950c544dcc27fd
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
     Children:
     - Name: SymbolName
+      Id: g=1c45694330c8962b613d93e1c4018a36
       Type: BaseDataVariableType
       DataType: String
       Value: "ACC"
   - Name: DN
+    Id: g=2609acac6506a45b7e4dbc7039bb8362
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=655e0c993bdac47713aaf32869b268a6
       Type: BaseDataVariableType
       DataType: String
       Value: "DN"
   - Name: EN
+    Id: g=6dbfa644b2df80a375545380f874d844
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=75e2cbc9d78648f73701848157795aa7
       Type: BaseDataVariableType
       DataType: String
       Value: "EN"
   - Name: PRE
+    Id: g=82b9e4fc97cb52231d3b2990b7a4b3e3
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
     Children:
     - Name: SymbolName
+      Id: g=624c13c42dc1c8d3f653938204d664c0
       Type: BaseDataVariableType
       DataType: String
       Value: "PRE"
   - Name: TT
+    Id: g=12308636ac0a327121efd92e017f15b4
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=61385c9356b4d16e438df453b90f8d3f
       Type: BaseDataVariableType
       DataType: String
       Value: "TT"

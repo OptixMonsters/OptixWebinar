@@ -1,4 +1,5 @@
 Name: Screens
+Id: g=4806a7860820f135beccd6c724c5e392
 Type: ScreensCategoryFolder
 Children:
 - Name: Motor_1
@@ -7,183 +8,230 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: MotorWidget1
+    Id: g=3d3be887398cadcafb57b548673a528a
     Type: MotorWidget
     Children:
     - Name: Rectangle1
+      Id: g=0b0fe945a6e0aa21a74d23d0d972b15d
       Type: Rectangle
     - Name: Label1
+      Id: g=d6174fb4de0656e9456e39162c988686
       Type: Label
       Children:
       - Name: Text
+        Id: g=9775260b8e6f39ccfde95758d5689a5b
         Type: BaseDataVariableType
         DataType: LocalizedText
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
+          Id: g=3dc80ae61387fa5166979175c960a84c
           Type: DynamicLink
           DataType: NodePath
           Value: "{MotorAlias}@BrowseName"
     - Name: CircularGauge1
+      Id: g=ae75f3efb182a9279b4f464aae8ffb1a
       Type: CircularGauge
       Children:
       - Name: Value
+        Id: g=08400e78f8f89c0a681dc6f29ba4363f
         Type: BaseDataVariableType
         DataType: Float
         Value: 0.0
         Children:
         - Name: DynamicLink
+          Id: g=1cb65ff994d8a0b9607de35dc57fdb44
           Type: DynamicLink
           DataType: NodePath
           Value: "{MotorAlias}/Val_Speed"
       - Name: MinValue
+        Id: g=a801db51b6142aaddecdb5150b73439c
         Type: BaseDataVariableType
         DataType: Float
         Value: 0.0
       - Name: MaxValue
+        Id: g=bb2a17c23e1200ca65cf4dcb9c87dec3
         Type: BaseDataVariableType
         DataType: Float
         Value: 60.0
       - Name: WarningZones
+        Id: g=58fba0453802bc493a66de84dd25fbd6
         Type: BaseObjectType
         Children:
         - Name: WarningZone1
+          Id: g=56cbb0cfad8798559d66a58801aac9cf
           Type: WarningZone
           Children:
           - Name: From
+            Id: g=6cb663ee8e8b99b4db15e468ef83ded8
             Type: BaseDataVariableType
             DataType: Float
-            Value: 50.0
+            Value: 40.0
           - Name: To
+            Id: g=2489e77b51ddace6a98424f9b5595949
             Type: BaseDataVariableType
             DataType: Float
             Value: 55.0
           - Name: Color
+            Id: g=e7c31b231d45a3b316268f252d8c0052
             Type: BaseDataVariableType
             DataType: Color
             Value: "#ffff00"
         - Name: WarningZone2
+          Id: g=ae0e5641120ab251422adfeb51073aaf
           Type: WarningZone
           Children:
           - Name: From
+            Id: g=7a6ab392e4fd33b1fa36a0f01fd3201b
             Type: BaseDataVariableType
             DataType: Float
             Value: 55.0
           - Name: To
+            Id: g=8c09a49877c550be58371b870ac267de
             Type: BaseDataVariableType
             DataType: Float
             Value: 60.0
           - Name: Color
+            Id: g=74668afa27a3c6c5cb668fec7da93154
             Type: BaseDataVariableType
             DataType: Color
             Value: "#ff0000"
     - Name: Compact1
+      Id: g=9a7d2509aad04b74e59879a4be870514
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
       Children:
       - Name: FillColor
+        Id: g=0787544496ea318c04a2b43f3dba0632
         Type: BaseDataVariableType
         DataType: Color
         Value: "#4d4d4d"
         Children:
         - Name: KeyValueConverter1
+          Id: g=cfc852054d3267f8eed3da25d557e462
           Type: ValueMapConverter
           Children:
           - Name: Source
+            Id: g=d0bd2e64be204992c1ba39b5971d9d2e
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
+              Id: g=653d59ac724ab951e462a4354ce7c591
               Type: DynamicLink
               DataType: NodePath
               Value: "{MotorAlias}/Sts_Running"
           - Name: Pairs
+            Id: g=98711401912001fced922956b1a014b5
             Type: BaseObjectType
             Children:
             - Name: Pair
+              Id: g=b67804541434ed15a995ec4a847f7b19
               Type: ValueMapPair
               Children:
               - Name: Key
+                Id: g=d704d4aac6043ed4cca4399a39aa8f6a
                 Type: BaseDataVariableType
                 DataType: Boolean
                 Value: false
               - Name: Value
+                Id: g=b1713d3892da6dc93117d9df7c3ece9f
                 Type: BaseDataVariableType
                 DataType: Color
                 Value: "#3b3b3b"
             - Name: Pair1
+              Id: g=e433cbf140c9c0976d0cdd4de5f7e402
               Type: ValueMapPair
               Children:
               - Name: Key
+                Id: g=2d7fafe7cb977ce95a0e0149a9b39276
                 Type: BaseDataVariableType
                 DataType: Boolean
                 Value: true
               - Name: Value
+                Id: g=134fa57a584ae1c0b05c685a24057d16
                 Type: BaseDataVariableType
                 DataType: Color
                 Value: "#0fafff"
       - Name: Compact_x5F_Servo_x5F_Outline
+        Id: g=32478416b889437eae7da9fb7cc0a19f
         Type: Image
         Children:
         - Name: Path
+          Id: g=443da6ae1e44eea3e5d5c94ea9ea37e3
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=7;%PROJECTDIR%/res/Compact_x5F_Servo_x5F_Outline.svg"
       - Name: Fill
+        Id: g=49316869849012459e09da57a219be19
         Type: Image
         Children:
         - Name: Path
+          Id: g=77b1da5f6979aa206ec4a81194d836d3
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=7;%PROJECTDIR%/res/CompactServo_Fill.svg"
         - Name: DynamicColor
+          Id: g=6462454d293563cc1e54e0596f6ccc6b
           Type: BaseDataVariableType
           DataType: Color
           Value: "#4d4d4d"
           Children:
           - Name: DynamicLink
+            Id: g=025da147f3c155d6cdf5569b31f4d9a6
             Type: DynamicLink
             DataType: NodePath
             Value: "../../FillColor"
       - Name: Compact_x5F_Servo_x5F_Overlay
+        Id: g=4b71a725361cc20291fb61b2800c7f8f
         Type: Image
         Children:
         - Name: Path
+          Id: g=dfee2c65c8465413af90625095057044
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=7;%PROJECTDIR%/res/Compact_x5F_Servo_x5F_Overlay.svg"
     - Name: MomentaryButton1
+      Id: g=0aee3cb997901e86b951284dcb087f6a
       Type: MomentaryButton
       Children:
       - Name: Active
+        Id: g=ffd2be15958eb5e3ecc7e2b9f2f1fb20
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
         Value: false
         Children:
         - Name: DynamicLink
+          Id: g=ff09b975086fe34736590ff89a95a799
           Type: DynamicLink
           DataType: NodePath
           Value: "{MotorAlias}/OCmd_Start"
     - Name: MomentaryButton2
+      Id: g=c966a48b7ab12d2f7ce8c147a312b5ef
       Type: MomentaryButton
       Children:
       - Name: Active
+        Id: g=2ceabdacf3a7b2b6c9c8e342b956e7e7
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
         Value: false
         Children:
         - Name: DynamicLink
+          Id: g=d826926c92ea9af3aef5a98f552750af
           Type: DynamicLink
           DataType: NodePath
           Value: "{MotorAlias}/OCmd_Stop"
     - Name: MotorAlias
+      Id: g=418c749cd3be9abe088627bd1c272fc7
       Type: Alias
       DataType: NodeId
       Value: "/Objects/OptixWebinar/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Motor1"
       Children:
       - Name: Kind
+        Id: g=d525ac165bf22f8062c84e12f77d710c
         Type: PropertyType
         DataType: NodeId
         Value: "/Objects/OptixWebinar/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Motor"
@@ -193,578 +241,726 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: HorizontalLayout1
+    Id: g=f341c4e9fc9c8928cb84fd3a1e8c7832
     Type: RowLayout
     Children:
     - Name: Width
+      Id: g=f67756207114e2d25300bd3462a6dc99
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: Height
+      Id: g=24c08a37f3becee0fde664f90b6b45eb
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: HorizontalAlignment
+      Id: g=00411f170804460f057df17e0490de41
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=3e6c1c2e3ac6587c02e9a122b00812f6
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: ContentAlignment
+      Id: g=03d3f43f5ef18d01d8f446391a9fbd13
       Type: BaseVariableType
       DataType: ContentHorizontalAlignment
       ModellingRule: Optional
       Value: 1
     - Name: Wrap
+      Id: g=755bd6c4358bd506f25e7a11e34807b9
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
       Value: true
     - Name: MotorWidget1
+      Id: g=2051062aa59cbc6f0d4ffdcb674b7fe5
       Type: MotorWidget
       Children:
       - Name: Rectangle1
+        Id: g=22d2b7b27a2008fb501df00b6abaf1d8
         Type: Rectangle
       - Name: Label1
+        Id: g=156b9828b0566f51f1ae4fdc5043dd5c
         Type: Label
         Children:
         - Name: Text
+          Id: g=272bddae5452314821970260d555a9a1
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
+            Id: g=c688437b7277ba523f1b3cf5f6347ce6
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}@BrowseName"
       - Name: CircularGauge1
+        Id: g=67a76e9d87f77fe72fb57637c80709ad
         Type: CircularGauge
         Children:
         - Name: Value
+          Id: g=6287b67482613239aefb498abe4f0e0e
           Type: BaseDataVariableType
           DataType: Float
           Value: 0.0
           Children:
           - Name: DynamicLink
+            Id: g=4e1aa259c883e0fb5855d5bc09c0b8f2
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}/Val_Speed"
         - Name: MinValue
+          Id: g=ccc9f7d251b544a2848375acf9584350
           Type: BaseDataVariableType
           DataType: Float
           Value: 0.0
         - Name: MaxValue
+          Id: g=4ab970e157176fb99b4ae16e4ac54687
           Type: BaseDataVariableType
           DataType: Float
           Value: 60.0
         - Name: WarningZones
+          Id: g=1d84e503718978c373dc9a2c0f13670a
           Type: BaseObjectType
           Children:
           - Name: WarningZone1
+            Id: g=747610e8b621422fdef51d7cd6312d52
             Type: WarningZone
             Children:
             - Name: From
+              Id: g=0d89b52040107ae3867da3ddb6248b6c
               Type: BaseDataVariableType
               DataType: Float
-              Value: 50.0
+              Value: 40.0
             - Name: To
+              Id: g=d3ff4b73fe2795151c1bf94b8ffea657
               Type: BaseDataVariableType
               DataType: Float
               Value: 55.0
             - Name: Color
+              Id: g=bbfac267f1ce4ccf3d03ca28d89c9f95
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ffff00"
           - Name: WarningZone2
+            Id: g=5b3aca9f0b905ac6cda4ca6bcc436865
             Type: WarningZone
             Children:
             - Name: From
+              Id: g=6a4d046418ab1b1a1f79bb1eebe28487
               Type: BaseDataVariableType
               DataType: Float
               Value: 55.0
             - Name: To
+              Id: g=57537beaeb74384f2e2127cb0827242d
               Type: BaseDataVariableType
               DataType: Float
               Value: 60.0
             - Name: Color
+              Id: g=570d71c18a0daa16b40e8a2f78492a41
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ff0000"
       - Name: Compact1
+        Id: g=144374710cf84f6bb6fc1b55f6282f69
         Type: ScaleLayout
         WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
         Children:
         - Name: FillColor
+          Id: g=42991775b838ad88a3a055f0d49b4e10
           Type: BaseDataVariableType
           DataType: Color
           Value: "#4d4d4d"
           Children:
           - Name: KeyValueConverter1
+            Id: g=b13236d4204eeef3d686f8a05c720b8f
             Type: ValueMapConverter
             Children:
             - Name: Source
+              Id: g=c1cc4a563fc332550bf745954e0cfd43
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=9eb9a5fb954febd1fca03f7bd2592133
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{MotorAlias}/Sts_Running"
             - Name: Pairs
+              Id: g=a79a41382555278c7b73a1f94f1a2c93
               Type: BaseObjectType
               Children:
               - Name: Pair
+                Id: g=71068f1d4243f6e8769432a79fcf199b
                 Type: ValueMapPair
                 Children:
                 - Name: Key
+                  Id: g=73670ace5b380bb83be43dd5948fa456
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: false
                 - Name: Value
+                  Id: g=d7b394cc0c005de531219819895c1e09
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#3b3b3b"
               - Name: Pair1
+                Id: g=87946562d06a3385c95f8edd07ca6034
                 Type: ValueMapPair
                 Children:
                 - Name: Key
+                  Id: g=8b2194139342cb2652cf3f6d27d101f0
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: true
                 - Name: Value
+                  Id: g=167dcbcd5d760284d79b7dae22b12c1b
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#0fafff"
         - Name: Compact_x5F_Servo_x5F_Outline
+          Id: g=da805ff2b0c8fa33efaea3ab22a1434e
           Type: Image
           Children:
           - Name: Path
+            Id: g=6e39d117a2eec4162234af4bedfa2b18
             Type: BaseDataVariableType
             DataType: ResourceUri
             Value: "ns=7;%PROJECTDIR%/res/Compact_x5F_Servo_x5F_Outline.svg"
         - Name: Fill
+          Id: g=d39fb7e82b9229d2ac3184785a70ef22
           Type: Image
           Children:
           - Name: Path
+            Id: g=52d939a0457d3424ab358403d1ea95db
             Type: BaseDataVariableType
             DataType: ResourceUri
             Value: "ns=7;%PROJECTDIR%/res/CompactServo_Fill.svg"
           - Name: DynamicColor
+            Id: g=dec235f9946d2e9a7599f31a60946a7e
             Type: BaseDataVariableType
             DataType: Color
             Value: "#4d4d4d"
             Children:
             - Name: DynamicLink
+              Id: g=d39aaf4d70be17990bd1131ab824d30d
               Type: DynamicLink
               DataType: NodePath
               Value: "../../FillColor"
         - Name: Compact_x5F_Servo_x5F_Overlay
+          Id: g=63eb61bd15bed13791b4eb89ddf2b31a
           Type: Image
           Children:
           - Name: Path
+            Id: g=dea052d1c8ca3f42efe274fcf32a5200
             Type: BaseDataVariableType
             DataType: ResourceUri
             Value: "ns=7;%PROJECTDIR%/res/Compact_x5F_Servo_x5F_Overlay.svg"
       - Name: MomentaryButton1
+        Id: g=b734263104f3a026f01d673fb899c040
         Type: MomentaryButton
         Children:
         - Name: Active
+          Id: g=ef6f2b8975cd9f9a87802a36e0633c18
           Type: BaseDataVariableType
           DataType: Boolean
           AccessLevel: Read
           Value: false
           Children:
           - Name: DynamicLink
+            Id: g=494e066808e7165efbe3e1da30e31060
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}/OCmd_Start"
       - Name: MomentaryButton2
+        Id: g=db5a1dd722eae72621a59714516067db
         Type: MomentaryButton
         Children:
         - Name: Active
+          Id: g=285e4dd027d0abf1c9883fc1e0f7efb0
           Type: BaseDataVariableType
           DataType: Boolean
           AccessLevel: Read
           Value: false
           Children:
           - Name: DynamicLink
+            Id: g=bc84aaea751d82f93b4ee670ca630993
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}/OCmd_Stop"
       - Name: MotorAlias
+        Id: g=0052b1eb4af91e1b01cc318483340d11
         Type: Alias
         DataType: NodeId
         Value: "/Objects/OptixWebinar/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Motor1"
         Children:
         - Name: Kind
+          Id: g=4be9d7e0a7a5022ace8ac4dc783d7a11
           Type: PropertyType
           DataType: NodeId
           Value: "/Objects/OptixWebinar/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Motor"
     - Name: MotorWidget2
+      Id: g=7ccc7959bf26f756b28384ee9638f1d0
       Type: MotorWidget
       Children:
       - Name: Rectangle1
+        Id: g=32ac063fb1fbcb58ef156f7fc1b7186f
         Type: Rectangle
       - Name: Label1
+        Id: g=8f446510d197faa618bc0a0a2f534c60
         Type: Label
         Children:
         - Name: Text
+          Id: g=50539503dc498f33b6b3fdfc4b7d392c
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
+            Id: g=81162c8cc9ddcce5cf360f53ca85c1fc
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}@BrowseName"
       - Name: CircularGauge1
+        Id: g=d39bf9370f4b56b1463869cb01584368
         Type: CircularGauge
         Children:
         - Name: Value
+          Id: g=8aa824df7fea58f29dd60817b96f9432
           Type: BaseDataVariableType
           DataType: Float
           Value: 0.0
           Children:
           - Name: DynamicLink
+            Id: g=6eee868587c27b997192e1a06071cda7
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}/Val_Speed"
         - Name: MinValue
+          Id: g=ead4c7452a2b52d8732a177a72ee2747
           Type: BaseDataVariableType
           DataType: Float
           Value: 0.0
         - Name: MaxValue
+          Id: g=a6fc0d53295193eebe2d2bdfd437c78c
           Type: BaseDataVariableType
           DataType: Float
           Value: 60.0
         - Name: WarningZones
+          Id: g=b41ff6d5f264a9fb8083415059a34307
           Type: BaseObjectType
           Children:
           - Name: WarningZone1
+            Id: g=230ad7b7c63ee5de99be12b1b57dd5d1
             Type: WarningZone
             Children:
             - Name: From
+              Id: g=2bf1cbfec5c3344f5117713e227eff3b
               Type: BaseDataVariableType
               DataType: Float
-              Value: 50.0
+              Value: 40.0
             - Name: To
+              Id: g=cbf6f4ba9496f7a707b94aa2da6a3c1b
               Type: BaseDataVariableType
               DataType: Float
               Value: 55.0
             - Name: Color
+              Id: g=5a8bdf594e39f9ba8b9d092977bcd835
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ffff00"
           - Name: WarningZone2
+            Id: g=a35a728c79ca6c27377c0203df3b4407
             Type: WarningZone
             Children:
             - Name: From
+              Id: g=0b34e1235cb0bcd4b09f1b5e65d4b1fb
               Type: BaseDataVariableType
               DataType: Float
               Value: 55.0
             - Name: To
+              Id: g=563309d50770a580c54781bb8170b4a7
               Type: BaseDataVariableType
               DataType: Float
               Value: 60.0
             - Name: Color
+              Id: g=2b0c19139c29a0782e51a030e470a7b9
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ff0000"
       - Name: Compact1
+        Id: g=8142845c3557a4b5271444a116be0617
         Type: ScaleLayout
         WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
         Children:
         - Name: FillColor
+          Id: g=5452292a4011b38241532d1447a9fbbf
           Type: BaseDataVariableType
           DataType: Color
           Value: "#4d4d4d"
           Children:
           - Name: KeyValueConverter1
+            Id: g=dfbd0c13cd5c7bc32fdb61b26608fad3
             Type: ValueMapConverter
             Children:
             - Name: Source
+              Id: g=5bb990c33b7692f65627ca13450ddf49
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=eb6a752869ac36a1ff6a8fa09e1dc272
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{MotorAlias}/Sts_Running"
             - Name: Pairs
+              Id: g=cf6df149f4ec0aaed4ff650a8131304b
               Type: BaseObjectType
               Children:
               - Name: Pair
+                Id: g=28459eadd921b8dac81f3942b59e97f7
                 Type: ValueMapPair
                 Children:
                 - Name: Key
+                  Id: g=8f8ae655066f91b9c04caa2c95f4b697
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: false
                 - Name: Value
+                  Id: g=6c12bfdbf67d36671ddfc25f48a244e9
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#3b3b3b"
               - Name: Pair1
+                Id: g=661f520ab28639765f05e172d8f89160
                 Type: ValueMapPair
                 Children:
                 - Name: Key
+                  Id: g=1deed9c38475d2737ea14f28c94ffd88
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: true
                 - Name: Value
+                  Id: g=518b1a75250935d3223d4ea750e08998
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#0fafff"
         - Name: Compact_x5F_Servo_x5F_Outline
+          Id: g=5b90c271afa066c69d3a051ef6a052ea
           Type: Image
           Children:
           - Name: Path
+            Id: g=408261b8cefbe1f3ca1542f1448e8792
             Type: BaseDataVariableType
             DataType: ResourceUri
             Value: "ns=7;%PROJECTDIR%/res/Compact_x5F_Servo_x5F_Outline.svg"
         - Name: Fill
+          Id: g=d5e5f48874575a318307366878726061
           Type: Image
           Children:
           - Name: Path
+            Id: g=e6117ab4349abe6d96232ae01329525f
             Type: BaseDataVariableType
             DataType: ResourceUri
             Value: "ns=7;%PROJECTDIR%/res/CompactServo_Fill.svg"
           - Name: DynamicColor
+            Id: g=97c2c49d150184226430df509e0d4c85
             Type: BaseDataVariableType
             DataType: Color
             Value: "#4d4d4d"
             Children:
             - Name: DynamicLink
+              Id: g=83a27aa29425d7e8acf960715828473b
               Type: DynamicLink
               DataType: NodePath
               Value: "../../FillColor"
         - Name: Compact_x5F_Servo_x5F_Overlay
+          Id: g=a23f1c3a0b02612345af2d9da56efcd8
           Type: Image
           Children:
           - Name: Path
+            Id: g=8160f4f118c31460a2f9c0d852790264
             Type: BaseDataVariableType
             DataType: ResourceUri
             Value: "ns=7;%PROJECTDIR%/res/Compact_x5F_Servo_x5F_Overlay.svg"
       - Name: MomentaryButton1
+        Id: g=946d77994c676987dc07f5f5620a73a3
         Type: MomentaryButton
         Children:
         - Name: Active
+          Id: g=847004463945dba0ed061e5f8ac17beb
           Type: BaseDataVariableType
           DataType: Boolean
           AccessLevel: Read
           Value: false
           Children:
           - Name: DynamicLink
+            Id: g=64b3b45ebb691ffde5eca523d3e83bc1
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}/OCmd_Start"
       - Name: MomentaryButton2
+        Id: g=2c8e040a504d48acf0654faaf11c0395
         Type: MomentaryButton
         Children:
         - Name: Active
+          Id: g=2fab717c6cdef43de769f2c52ad0061b
           Type: BaseDataVariableType
           DataType: Boolean
           AccessLevel: Read
           Value: false
           Children:
           - Name: DynamicLink
+            Id: g=234690e8ac5c30441d0f8587dce68b09
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}/OCmd_Stop"
       - Name: MotorAlias
+        Id: g=8f1b670240c7fb4bd75aca0ade94bbcb
         Type: Alias
         DataType: NodeId
         Value: "/Objects/OptixWebinar/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Motor2"
         Children:
         - Name: Kind
+          Id: g=099c8978e9e275d6b40c66ee41bddd4d
           Type: PropertyType
           DataType: NodeId
           Value: "/Objects/OptixWebinar/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Motor"
     - Name: MotorWidget3
+      Id: g=d28274ced46001760bfeed645e5b25c7
       Type: MotorWidget
       Children:
       - Name: Rectangle1
+        Id: g=59f71831caee53c9b665a8299d55a892
         Type: Rectangle
       - Name: Label1
+        Id: g=a78388c39b55938d44db74b8fb89b53e
         Type: Label
         Children:
         - Name: Text
+          Id: g=3312e029124fe685e35404e0568f2cfd
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: DynamicLink
+            Id: g=e1a41bfa94e1ccdf9e4632920983f317
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}@BrowseName"
       - Name: CircularGauge1
+        Id: g=45e644463c4882db24fd2f8888e55675
         Type: CircularGauge
         Children:
         - Name: Value
+          Id: g=03f5991b462ca931e352036f22f08510
           Type: BaseDataVariableType
           DataType: Float
           Value: 0.0
           Children:
           - Name: DynamicLink
+            Id: g=09afb030e895d745762a33c6a29e3ee6
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}/Val_Speed"
         - Name: MinValue
+          Id: g=8cb51c8e5c5139bdeec4e3311835fe4d
           Type: BaseDataVariableType
           DataType: Float
           Value: 0.0
         - Name: MaxValue
+          Id: g=50ce28e4f90bd56616b58ecba5232a34
           Type: BaseDataVariableType
           DataType: Float
           Value: 60.0
         - Name: WarningZones
+          Id: g=ff05e170c8f1d3dc9e2629bc2316c455
           Type: BaseObjectType
           Children:
           - Name: WarningZone1
+            Id: g=383c00942d149b47167f28e80b252ab2
             Type: WarningZone
             Children:
             - Name: From
+              Id: g=14d130f3921900127ed41a2207cc1306
               Type: BaseDataVariableType
               DataType: Float
-              Value: 50.0
+              Value: 40.0
             - Name: To
+              Id: g=6a60fcd5a8277deddbee9fa260bfe140
               Type: BaseDataVariableType
               DataType: Float
               Value: 55.0
             - Name: Color
+              Id: g=0b00b85ceddfbd74192fc239afb97200
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ffff00"
           - Name: WarningZone2
+            Id: g=71eb2f53b9069e2a153de6fbeb4289ae
             Type: WarningZone
             Children:
             - Name: From
+              Id: g=73f9cb951ea45f12fa161ebec75eb31d
               Type: BaseDataVariableType
               DataType: Float
               Value: 55.0
             - Name: To
+              Id: g=1f240ccda3922d39595a831cdb6f49ea
               Type: BaseDataVariableType
               DataType: Float
               Value: 60.0
             - Name: Color
+              Id: g=2e7a25bd400e2f1be2b84bd1983a82f9
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ff0000"
       - Name: Compact1
+        Id: g=726c3d13076cd95e6af71d3495d363b1
         Type: ScaleLayout
         WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
         Children:
         - Name: FillColor
+          Id: g=41e7f853bc2fcb606fcad529d5c486ea
           Type: BaseDataVariableType
           DataType: Color
           Value: "#4d4d4d"
           Children:
           - Name: KeyValueConverter1
+            Id: g=56e34122edf206328091b5c3012a6c8c
             Type: ValueMapConverter
             Children:
             - Name: Source
+              Id: g=b96447075a6b089852bb4d22a79fd817
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
               Children:
               - Name: DynamicLink
+                Id: g=631b3e423ff31f951229a5639478d796
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{MotorAlias}/Sts_Running"
             - Name: Pairs
+              Id: g=114da1778f77b6d1a05be5687521e9c2
               Type: BaseObjectType
               Children:
               - Name: Pair
+                Id: g=86be283279b7ce3ffa7cfbf6abe99133
                 Type: ValueMapPair
                 Children:
                 - Name: Key
+                  Id: g=5944c3a431e07d1a25d66dd602f5d269
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: false
                 - Name: Value
+                  Id: g=8dd81962c343f58f379670dd30633a64
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#3b3b3b"
               - Name: Pair1
+                Id: g=b34ee70fc7544e4e3b436eaa4ebaa163
                 Type: ValueMapPair
                 Children:
                 - Name: Key
+                  Id: g=96f91fba05db63e6f01f18542199484b
                   Type: BaseDataVariableType
                   DataType: Boolean
                   Value: true
                 - Name: Value
+                  Id: g=59b421f50dc9e37034cb08eae4b72a97
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#0fafff"
         - Name: Compact_x5F_Servo_x5F_Outline
+          Id: g=c8819741341750fa51cb6a2a3fc55249
           Type: Image
           Children:
           - Name: Path
+            Id: g=84e199ad32c94546cba48206734c8853
             Type: BaseDataVariableType
             DataType: ResourceUri
             Value: "ns=7;%PROJECTDIR%/res/Compact_x5F_Servo_x5F_Outline.svg"
         - Name: Fill
+          Id: g=10ec8e7bae9b0e8b2504abcd2d25588d
           Type: Image
           Children:
           - Name: Path
+            Id: g=0536b25ea2355705695e738427b46782
             Type: BaseDataVariableType
             DataType: ResourceUri
             Value: "ns=7;%PROJECTDIR%/res/CompactServo_Fill.svg"
           - Name: DynamicColor
+            Id: g=fb82430b334c5ef267bbd25bf74d4f0d
             Type: BaseDataVariableType
             DataType: Color
             Value: "#4d4d4d"
             Children:
             - Name: DynamicLink
+              Id: g=005e1ea76dd2ffda7856b2906d9edcac
               Type: DynamicLink
               DataType: NodePath
               Value: "../../FillColor"
         - Name: Compact_x5F_Servo_x5F_Overlay
+          Id: g=d18a1fe38408ba5e9dfe81a4db074358
           Type: Image
           Children:
           - Name: Path
+            Id: g=8f7e631c8a02375630b01be9e04b5a0e
             Type: BaseDataVariableType
             DataType: ResourceUri
             Value: "ns=7;%PROJECTDIR%/res/Compact_x5F_Servo_x5F_Overlay.svg"
       - Name: MomentaryButton1
+        Id: g=b1471ad2ad9fff35d562e1e4c129a838
         Type: MomentaryButton
         Children:
         - Name: Active
+          Id: g=0db9906419dcc222b596c178d382e4e5
           Type: BaseDataVariableType
           DataType: Boolean
           AccessLevel: Read
           Value: false
           Children:
           - Name: DynamicLink
+            Id: g=55ce0e4b88a86806f53923a4b4f701fa
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}/OCmd_Start"
       - Name: MomentaryButton2
+        Id: g=9fd4a5e9317c640f099adc8698172d85
         Type: MomentaryButton
         Children:
         - Name: Active
+          Id: g=778101ceca894dc95b29074a30205abd
           Type: BaseDataVariableType
           DataType: Boolean
           AccessLevel: Read
           Value: false
           Children:
           - Name: DynamicLink
+            Id: g=61d3b278c7dfb240be0666c120f680c5
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorAlias}/OCmd_Stop"
       - Name: MotorAlias
+        Id: g=4254a46384064fd9d2928947d5a359cf
         Type: Alias
         DataType: NodeId
         Value: "/Objects/OptixWebinar/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Motor3"
         Children:
         - Name: Kind
+          Id: g=7b472beb320c4242205d1b0a49bb8a70
           Type: PropertyType
           DataType: NodeId
           Value: "/Objects/OptixWebinar/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Types/VariableTypes/Motor"

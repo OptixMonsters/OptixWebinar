@@ -3,118 +3,142 @@ Id: g=c01c004373ffc6fc05aa671240b47469
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
+  Id: g=c296c941eba1a4cdcab1ce1526a733ed
   Type: BaseDataVariableType
   DataType: String
   Value: "192.168.1.114\\Backplane\\0"
 - Name: StationStatusVariables
+  Id: g=21fa575e14d2af6fb7925754ed2e61dc
   Type: PropertyGroup
   Children:
   - Name: ActiveDataItems
+    Id: g=376172959e19ebbad23a8cb73665228c
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: ActivityCounter
+    Id: g=4af4853191c75468138c94e8b46944d2
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: CatalogNumber
+    Id: g=b0ef431b87b80201243272d8004e7842
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: ControllerName
+    Id: g=0f411d4a9330cc71911a9555dca06fb3
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: FailedDataItems
+    Id: g=05f277d885218123bd4e628d91acf94e
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MajorRev
+    Id: g=483d2822498800a7bd2b2b6529fce132
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MinorRev
+    Id: g=0cfca748af4c51dd04fd655639f25f46
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: Mode
+    Id: g=9640b3bcd0e3be7352b3a9433eb578eb
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: OptimizedBlocks
+    Id: g=e89d69af8fc4a1cb0692bc1e41a666c2
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: Path
+    Id: g=6bd0e58ad31f9abc6f208450c6b4c965
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: Present
+    Id: g=8a275f8e06331f626bd313548eb2acda
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: ProductCode
+    Id: g=0f66bd6087f70d7816dace56fc8ec51e
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: ProductType
+    Id: g=3ed8e6118c442f664b0952e5e96f20da
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: RecoverableMajorFaults
+    Id: g=511864415c5630bd2416ae08845be6d2
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: RecoverableMinorFaults
+    Id: g=7d99091aec5cffa3a7ac8a36e4c1d557
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: RunMode
+    Id: g=9ed06ee2899f6a7fa29ae42fee8e2531
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: Synchronized
+    Id: g=0689190e10eea3a33389a6e4a6156f70
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: SyncState
+    Id: g=1d3daecc84573b4f7f09851d26bf7f1c
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: UnrecoverableMajorFaults
+    Id: g=acf7d53c30471ca80a32c197b2301fde
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: UnrecoverableMinorFaults
+    Id: g=e622cbfbe3a7d2393ba3ecaf6401b37d
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: Vendor
+    Id: g=d13db64ecc71c22fe983d43e459047ff
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
 - Name: OperationCode
+  Id: g=c673cdbd0fc72690712d7a846c5f0be2
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
@@ -139,6 +163,7 @@ Children:
   Direction: Forward
 - File: Tags/Tags.yaml
 - Name: Types
+  Id: g=286634916eae0540756699fcd9a5ad60
   Type: FolderType
   Children:
   - File: DataTypes/DataTypes.yaml

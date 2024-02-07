@@ -1,4 +1,5 @@
 Name: DataTypes
+Id: g=cabf33de39e36f060c1632293b01ad8e
 Type: FolderType
 Children:
 - Class: DataType
@@ -90,6 +91,7 @@ Children:
   DisplayName: {"LocaleId":"","Text":"AOI_SineWave"}
   Children:
   - Name: ns=0;Default Binary
+    Id: g=38094673675613cec2ec4f93d25d4867
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
@@ -160,6 +162,7 @@ Children:
   DisplayName: {"LocaleId":"","Text":"Motor"}
   Children:
   - Name: ns=0;Default Binary
+    Id: g=dd449df6e8336f1e20d1cc9e2063910e
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
@@ -201,6 +204,7 @@ Children:
   DisplayName: {"LocaleId":"","Text":"UDT_SineWave"}
   Children:
   - Name: ns=0;Default Binary
+    Id: g=028a7daf48e8c62637f5ac1713ea7261
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
@@ -247,6 +251,7 @@ Children:
   DisplayName: {"LocaleId":"","Text":"TIMER"}
   Children:
   - Name: ns=0;Default Binary
+    Id: g=f00b7ccf7d7cc95d046e0bc901f4ed56
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}

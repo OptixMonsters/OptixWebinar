@@ -37,11 +37,15 @@ Project:
    Uri: 'urn:FTOptix:RAEtherNetIP'
    Module: FTOptix.RAEtherNetIP
    Version: 2.1
+  10:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 852
-  Objects: 205
+  TotalNodeCount: 857
+  Objects: 207
   ObjectTypes: 4
-  Variables: 635
+  Variables: 638
   VariableTypes: 4
   DataTypes: 4
   Methods: 0

@@ -1,4 +1,5 @@
 Name: Controller Tags
+Id: g=432ffec48e52347481c726d717db169c
 Type: FolderType
 Children:
 - Name: Motor3
@@ -7,275 +8,336 @@ Children:
   DataType: Motor
   Children:
   - Name: EnableIn
+    Id: g=18be6f21545eee01a008145b671c2984
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=4a2fd77345b0e4bb642cecffc0a34e5c
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor3.EnableIn"
   - Name: EnableOut
+    Id: g=a99b972e6e15cd48665747519cbc78b5
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=5aeb80f7bb8fdaf93df12b6043fd6434
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor3.EnableOut"
   - Name: OCmd_Start
+    Id: g=ab768e57c0b2d7d02c5643371c8bb9f7
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=b89f01f7925c044e19821232146aef88
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor3.OCmd_Start"
   - Name: OCmd_Stop
+    Id: g=1c1ab8b6645b2bf8befe27839cf9a021
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=abf543ddb883957093be118d89ef0548
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor3.OCmd_Stop"
   - Name: OSet_SP
+    Id: g=999226cfef8e9a72a86ccfa052650c92
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=c3c811ab7dea1a0e603a00325a7e9b69
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor3.OSet_SP"
   - Name: Sts_Running
+    Id: g=39ed6b026fea03e1fbfeb3dcc2ceffde
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=6cd9c8676db41ac7a127d26050ce0d2c
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor3.Sts_Running"
   - Name: Val_Speed
+    Id: g=39d0114920c664c17e9aff282a68553f
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=db50ffd587765ed349b950e49ef2a8cb
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor3.Val_Speed"
   - Name: Wrk_SpeedSineWave
+    Id: g=bd609301333bbc424964bf925509b66f
     Type: AOI_SineWave
     DataType: AOI_SineWave
     Children:
     - Name: EnableIn
+      Id: g=2503dd507a6c4a43b6bce833cc47681e
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=7a3c0a265d0ee8dc874e4c28f2ca8e10
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.EnableIn"
     - Name: EnableOut
+      Id: g=7110d04a7299ad644f8fbdd62f2b7ad7
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=076624d01eca3e72045c2fe4426b1806
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.EnableOut"
     - Name: Val_YValue
+      Id: g=d31b38bb23fcb234b29a767e5e89321e
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=28a89a5093a3dd87f4a66cf736af538b
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Val_YValue"
     - Name: Wrk_10msTimer
+      Id: g=8c84621289eb2f1c294da46de7c1c186
       Type: TIMER
       DataType: TIMER
       Children:
       - Name: ACC
+        Id: g=6acd5fb24c59c2c0ef01a9aec24a0611
         Type: RAEtherNetIPTag
         DataType: Int32
         Value: 0
         Children:
         - Name: SymbolName
+          Id: g=5de53ca055ae4f7b68b6b7c5ed1d3f75
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor3.Wrk_SpeedSineWave.Wrk_10msTimer.ACC"
       - Name: DN
+        Id: g=f12b3c9e2903ad2aac5166cf9cc1f4a0
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=d64cbdffb7619b6a453aa6443f0dadc7
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor3.Wrk_SpeedSineWave.Wrk_10msTimer.DN"
       - Name: EN
+        Id: g=22a205378407fcd48549f16f6b166839
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=9c4859c7037c120aad9dcd7c7492b0ff
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor3.Wrk_SpeedSineWave.Wrk_10msTimer.EN"
       - Name: PRE
+        Id: g=7dd23f1afa1d7fa2bee3054d47ffc2b9
         Type: RAEtherNetIPTag
         DataType: Int32
         Value: 0
         Children:
         - Name: SymbolName
+          Id: g=17113fa5aca0f61016e65a98e589921b
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor3.Wrk_SpeedSineWave.Wrk_10msTimer.PRE"
       - Name: TT
+        Id: g=4e7dbb04666fc6c3a835eafef93c11d9
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=be1db06da5695abf7caac59150196202
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor3.Wrk_SpeedSineWave.Wrk_10msTimer.TT"
     - Name: Wrk_1Percent
+      Id: g=2c5519db093cca216951fb749bc1b1f8
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=dd2420192c3832de5ac948cf1429ff4d
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_1Percent"
     - Name: Wrk_ActualOffset
+      Id: g=7b21c43c3423738569aed228a9da7a77
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=b5285940d913da9062a37fc4d8814cb9
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_ActualOffset"
     - Name: Wrk_LastCommandedSP
+      Id: g=b78abddb9fea3d5bd8d76aba9a03dd61
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=eabf72a6eac12fafa6b866accb8605a5
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_LastCommandedSP"
     - Name: Wrk_OffsetDiff
+      Id: g=caee38ff78face852f644d2f7e369796
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=878fad4846a35127eef4ccd23712fd9f
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_OffsetDiff"
     - Name: Wrk_OffsetDiffABS
+      Id: g=bd0a963a6205f3c2aebbbc08fdc43bf7
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=57fc79a4d76e7f961241efc73250f209
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_OffsetDiffABS"
     - Name: Wrk_Pi
+      Id: g=6822e699035defccdf0a630559fecc26
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=446bb9e6701e1290fb028830b523b254
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_Pi"
     - Name: Wrk_ScratchPad1
+      Id: g=8e4e9a691bacc75664844033ed53aced
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=82d13737ad65f4a83edc22d391fd24b6
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_ScratchPad1"
     - Name: Wrk_ScratchPad2
+      Id: g=daba026c79b7e96b343a10132491252b
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=be4d1c528ad3c624425e3b94bfcda877
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_ScratchPad2"
     - Name: Wrk_TimeWindow
+      Id: g=2f064f3fcdd27ea00f9b92a785cca345
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=86209d0c91b1989469f692fe746ee004
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_TimeWindow"
     - Name: Wrk_YValue
+      Id: g=bddf9901cac1efa8e1c83ff8fdab88d2
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=51a9105e646783c186635be2a4a76857
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWave.Wrk_YValue"
   - Name: Wrk_SpeedSineWaveSettings
+    Id: g=f2d12a6aa95fffc7a18159fae9fd8c2c
     Type: UDT_SineWave
     DataType: UDT_SineWave
     Children:
     - Name: Amplitude
+      Id: g=9a6ba3f4769bd812c0bfc49879192137
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=7edcd19637846aad49d2a4bb51e6da1e
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWaveSettings.Amplitude"
     - Name: Frequency
+      Id: g=1fba3e63d7f66446f94e214afbce37c2
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=455690fafd12142def30e8eb612c498c
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWaveSettings.Frequency"
     - Name: Offset
+      Id: g=88fb215287454433c247800e4c658608
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=2aeb4bd61f9a5571462d2ede8e04a27a
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWaveSettings.Offset"
     - Name: Phase
+      Id: g=b0ac782b67d0ab4a936adaa251f7a0ea
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=20e2bfd2fe443171ddfdf6440f338142
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor3.Wrk_SpeedSineWaveSettings.Phase"
@@ -285,275 +347,336 @@ Children:
   DataType: Motor
   Children:
   - Name: EnableIn
+    Id: g=87a14515e2986fc68e92d211e78dfe8e
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=240e210b62c6d02ebfc14cd6a763045e
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor2.EnableIn"
   - Name: EnableOut
+    Id: g=4749de728b4e1fb7339837aa09fe36cc
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=5d8434196a44767e706b112046cb7d11
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor2.EnableOut"
   - Name: OCmd_Start
+    Id: g=3716b1d5e5185e5210f5c1e0e6f46fb9
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=0428bbcb2ea560e67352e0c2328cbfc8
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor2.OCmd_Start"
   - Name: OCmd_Stop
+    Id: g=266adfca9581edd58253943b96e77717
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=0ed9fbee86b0567411adefe5b94d5c6a
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor2.OCmd_Stop"
   - Name: OSet_SP
+    Id: g=72f630a365a5e9ed002b0c8a20917ecc
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=ba62e054beca87a14a927f8cd38e8cf5
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor2.OSet_SP"
   - Name: Sts_Running
+    Id: g=319f4561867cbaa2c0f467fb4278b1a2
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=b93013ddff5f9b0ad30631defd22dcf6
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor2.Sts_Running"
   - Name: Val_Speed
+    Id: g=2bdaf7e1dd6458c055294ce5296a7a46
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=a87736a04318a424d16cc16786107324
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor2.Val_Speed"
   - Name: Wrk_SpeedSineWave
+    Id: g=7d51c85961eb398f445c316ebe75e4ca
     Type: AOI_SineWave
     DataType: AOI_SineWave
     Children:
     - Name: EnableIn
+      Id: g=5645c07430ba88ad92ea8b88383fd0b2
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=51623f01a6c382d5094f29aa123590d3
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.EnableIn"
     - Name: EnableOut
+      Id: g=5b2acca034689bd236053b0f9d251ffd
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=2db2061d35924f73d0aaaf721dad5423
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.EnableOut"
     - Name: Val_YValue
+      Id: g=eb48e5e285de7039e23281b7e1005ab6
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=46d5422ff0d48eddcae423691555c4ad
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Val_YValue"
     - Name: Wrk_10msTimer
+      Id: g=05241b360d911d4b5b6e2d20354a78a8
       Type: TIMER
       DataType: TIMER
       Children:
       - Name: ACC
+        Id: g=4802e46435db3f07060b8e8258cfe18f
         Type: RAEtherNetIPTag
         DataType: Int32
         Value: 0
         Children:
         - Name: SymbolName
+          Id: g=a1a334d74024d6be08b21593f0c81e4b
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor2.Wrk_SpeedSineWave.Wrk_10msTimer.ACC"
       - Name: DN
+        Id: g=0d469b3420d5baa586cd620d5d51cb41
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=d593a5ac07304cbe1ebb1b0de2341ac3
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor2.Wrk_SpeedSineWave.Wrk_10msTimer.DN"
       - Name: EN
+        Id: g=727942b8c91f6e134b628eb756215a31
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=18ad06ad47a5d8db5d4f673b7406d57f
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor2.Wrk_SpeedSineWave.Wrk_10msTimer.EN"
       - Name: PRE
+        Id: g=82199a0a27bc0a7655684aca53df6ff9
         Type: RAEtherNetIPTag
         DataType: Int32
         Value: 0
         Children:
         - Name: SymbolName
+          Id: g=d4dc6181b404aa7e7330bc36adf510d8
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor2.Wrk_SpeedSineWave.Wrk_10msTimer.PRE"
       - Name: TT
+        Id: g=d8e8f22c0b0b2e686084a037c7cde79e
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=9ba3daf86041efacc1659c59123d8337
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor2.Wrk_SpeedSineWave.Wrk_10msTimer.TT"
     - Name: Wrk_1Percent
+      Id: g=bd31d089f405cdad180fcc5f1efb52fa
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=deb97f48a583aad584ed0beee9a63b0e
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_1Percent"
     - Name: Wrk_ActualOffset
+      Id: g=528fd33e069dd0b13958ea328fcf82c5
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=5973ca3ff3d95afc5dc7d082add148d1
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_ActualOffset"
     - Name: Wrk_LastCommandedSP
+      Id: g=650d3b38b2054a62b83984c6d839d154
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=26cc2d438d8fac0d0ebec12d17da2eb2
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_LastCommandedSP"
     - Name: Wrk_OffsetDiff
+      Id: g=600884bb65fe4967fc03c898ba50ec7e
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=df96186b38882d07e5f870727ab654ba
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_OffsetDiff"
     - Name: Wrk_OffsetDiffABS
+      Id: g=03c1402ce4ca102d13616b6bf292c324
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=33f79bf3378e18a68479441233aecc25
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_OffsetDiffABS"
     - Name: Wrk_Pi
+      Id: g=11e36ff3e8204c8623180c414b96205e
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=5e627e0bb27c4a07176397c020d7eaf3
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_Pi"
     - Name: Wrk_ScratchPad1
+      Id: g=5ffecf8b32870e132bebf790b96ad769
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=845ed3b60d259906cc7c783181321659
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_ScratchPad1"
     - Name: Wrk_ScratchPad2
+      Id: g=bacc9ee6ac0444eeafc337f53f748071
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=1f00561ae4ff5eb930a1eddadd5a53c5
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_ScratchPad2"
     - Name: Wrk_TimeWindow
+      Id: g=17bab1421d740ce2691460a68e114772
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=758cac3f316be7487cfe0e51ceba66f4
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_TimeWindow"
     - Name: Wrk_YValue
+      Id: g=f5de8039fe94677e04798d20b9b1a9a2
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=99027e9c534f8e6bbfc062f8e165d92a
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWave.Wrk_YValue"
   - Name: Wrk_SpeedSineWaveSettings
+    Id: g=5910b8f5bc5221417b41e3b4fe9ecb6d
     Type: UDT_SineWave
     DataType: UDT_SineWave
     Children:
     - Name: Amplitude
+      Id: g=6df673df09e1bbdbb49a7b10766d8093
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=d606d0be72d0e23c5e30063fb2260742
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWaveSettings.Amplitude"
     - Name: Frequency
+      Id: g=f0002ee85fc7fab9ca4d00eb672ed5ea
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=0eb85023b334eef439f69625387912b1
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWaveSettings.Frequency"
     - Name: Offset
+      Id: g=402be11430974d9f834da85ad8fefa79
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=ae4c3241339f4b5023ab099f856a6a2b
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWaveSettings.Offset"
     - Name: Phase
+      Id: g=fcfeb4ada0a3c508564caac445e2863b
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=dec875f6ae7155a090600e21567df740
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor2.Wrk_SpeedSineWaveSettings.Phase"
@@ -563,275 +686,336 @@ Children:
   DataType: Motor
   Children:
   - Name: EnableIn
+    Id: g=402d15ba3f1c8e4561b0f035472af0c4
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=3832f74ee9776b44f080fbe10fed57de
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor1.EnableIn"
   - Name: EnableOut
+    Id: g=690486abba658577e2039ab6671ca2ad
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=a5b60dbb56717d98c4cd60acd6ec0e57
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor1.EnableOut"
   - Name: OCmd_Start
+    Id: g=af010c46f5dbb2e7dd2632ee78b5fe2d
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=6fe595359363a2d90bab5d927c0ed21a
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor1.OCmd_Start"
   - Name: OCmd_Stop
+    Id: g=8dd6e666a8b472ae13dc8f9262efd207
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=1e22651f04cd2920a8213510071e36e0
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor1.OCmd_Stop"
   - Name: OSet_SP
+    Id: g=cc911f2db84d3d844447b632be19d238
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=4b04ebba0031be6e3eff06ab4dac4863
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor1.OSet_SP"
   - Name: Sts_Running
+    Id: g=053fb3bc8e9df6048bd80c783acf9292
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
+      Id: g=6ec08016d6ea9e2c7e43792b9c8fc743
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor1.Sts_Running"
   - Name: Val_Speed
+    Id: g=46002b3947f8da5d13f5fb9dc18ff734
     Type: RAEtherNetIPTag
     DataType: Float
     Value: 0.0
     Children:
     - Name: SymbolName
+      Id: g=1bb634fc9131b13b199faa8a7a8a8d7e
       Type: BaseDataVariableType
       DataType: String
       Value: "Motor1.Val_Speed"
   - Name: Wrk_SpeedSineWave
+    Id: g=4d0e9f9d2795454b9b975842f3dfca12
     Type: AOI_SineWave
     DataType: AOI_SineWave
     Children:
     - Name: EnableIn
+      Id: g=a8936609c08e550f328c38e0b13311a3
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=68c01bbb43d6b738820dadb982458e1c
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.EnableIn"
     - Name: EnableOut
+      Id: g=02fb0e97ba4838c98610c7eaf999c0ec
       Type: RAEtherNetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=7e34b32fb0275b4eaa0134fe5be434fe
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.EnableOut"
     - Name: Val_YValue
+      Id: g=59f218ffc0cc06072c709c4da6a04861
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=bc213c8690e21c9dde139ed94a75128e
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Val_YValue"
     - Name: Wrk_10msTimer
+      Id: g=92c5264e8b563e2484bdc59cc8605c44
       Type: TIMER
       DataType: TIMER
       Children:
       - Name: ACC
+        Id: g=e0eb5317be6a8a44629ee89352462b40
         Type: RAEtherNetIPTag
         DataType: Int32
         Value: 0
         Children:
         - Name: SymbolName
+          Id: g=19760ab0df61aa2cbe2aa0850241086f
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor1.Wrk_SpeedSineWave.Wrk_10msTimer.ACC"
       - Name: DN
+        Id: g=08c8b07bbc6c96c0d2562baff8f6b543
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=3909fb259de6eaa4f27fba4090a3462a
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor1.Wrk_SpeedSineWave.Wrk_10msTimer.DN"
       - Name: EN
+        Id: g=262c01f6a325fcafc835c1fc18c6aeea
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=4bfa924f0e68bb9b41324fbec2ab761a
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor1.Wrk_SpeedSineWave.Wrk_10msTimer.EN"
       - Name: PRE
+        Id: g=fa4ddaa234365111205c631dac2279d3
         Type: RAEtherNetIPTag
         DataType: Int32
         Value: 0
         Children:
         - Name: SymbolName
+          Id: g=40dbf4c0668b40a78003821d3a2b971c
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor1.Wrk_SpeedSineWave.Wrk_10msTimer.PRE"
       - Name: TT
+        Id: g=93272527504c8a0f16ab3fdf958e518d
         Type: RAEtherNetIPTag
         DataType: Boolean
         Value: false
         Children:
         - Name: SymbolName
+          Id: g=7c85ad9856f6db8a2dd8d01755d46f24
           Type: BaseDataVariableType
           DataType: String
           Value: "Motor1.Wrk_SpeedSineWave.Wrk_10msTimer.TT"
     - Name: Wrk_1Percent
+      Id: g=6da5c8b2c3d4a6906d00fd1b99bd119b
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=92ab0ef76d79c3500882f3912ecdf2a2
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_1Percent"
     - Name: Wrk_ActualOffset
+      Id: g=0fafd84628044fae44c2ae7d31ffce54
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=13084b85afb359cb3e3061607de386e6
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_ActualOffset"
     - Name: Wrk_LastCommandedSP
+      Id: g=aec921e77ba3c61c085738d0d379f449
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=25f3ef1c5ebb11d5b05f8aef05e80865
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_LastCommandedSP"
     - Name: Wrk_OffsetDiff
+      Id: g=f9439fd80a13964ca4c5d09ace7b352e
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=6097078452bfd0d6e03d4812cfd28bd0
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_OffsetDiff"
     - Name: Wrk_OffsetDiffABS
+      Id: g=620d255eb39a7f881b663c72498a69b1
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=e4d9fb388f77d86822b0beff9997b0a7
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_OffsetDiffABS"
     - Name: Wrk_Pi
+      Id: g=da4196cddbfe2828def1fd39fefa1205
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=5e5abc0aa188878ef73f5c042b5375ab
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_Pi"
     - Name: Wrk_ScratchPad1
+      Id: g=41fbd283e388a3df8913843bb1aa45d9
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=dc1e75e5bdb87e7bf2821fcd48f38efd
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_ScratchPad1"
     - Name: Wrk_ScratchPad2
+      Id: g=f48eb478a966f24996ada86fc3b50006
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=355fe0aa8e58b543f755aa06f2b465e3
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_ScratchPad2"
     - Name: Wrk_TimeWindow
+      Id: g=d0d21400a28fd0b969e5c695015123e9
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=4e17245121a62e9da60f29e0a4f4ba4a
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_TimeWindow"
     - Name: Wrk_YValue
+      Id: g=7a22b50ac5f85ea6c0d89a4f820f520d
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=6438e51c80ee9ef470a4fcc1625c7da4
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWave.Wrk_YValue"
   - Name: Wrk_SpeedSineWaveSettings
+    Id: g=e13aa972c65d03fa7573d9d8c8e6f2da
     Type: UDT_SineWave
     DataType: UDT_SineWave
     Children:
     - Name: Amplitude
+      Id: g=fd7ca22e2f0cf1f5b3656c511f4c3d53
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=58362e05f05e89862b4a7d8ea70be852
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWaveSettings.Amplitude"
     - Name: Frequency
+      Id: g=99b8e1d2510cfd239d9ae0a8acd50a98
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=885cb617226d82ae435f425de42a8a43
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWaveSettings.Frequency"
     - Name: Offset
+      Id: g=6fcfce82b4f229e5ed1d2bfb2161a1b6
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=2cb95850e2055a9fe104176ee9391291
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWaveSettings.Offset"
     - Name: Phase
+      Id: g=344506b5d7fe6d4ed3a7714960e5b357
       Type: RAEtherNetIPTag
       DataType: Float
       Value: 0.0
       Children:
       - Name: SymbolName
+        Id: g=74a2fc6febd0d3273f10673b88cbcd6c
         Type: BaseDataVariableType
         DataType: String
         Value: "Motor1.Wrk_SpeedSineWaveSettings.Phase"
